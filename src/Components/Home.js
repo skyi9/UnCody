@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import PendingTask from './PendingTask'
+
 import noteContext from '../Context/MyContext'
 
 
@@ -26,7 +26,7 @@ const Home = () => {
                 <button onClick={onclick} className="btn btn-primary " style={{ flex: '2' }} type="submit">Add Task</button>
             </form>
 
-            <PendingTask />
+
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import Home from "./Components/Home";
 import CompletedTask from "./Components/CompletedTask";
 import MyContextState from "./Context/MyContextState";
+import PendingTask from './Components/PendingTask'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
       <MyContextState>
         <Home />
+        <PendingTask />
         <CompletedTask />
       </MyContextState>
 
